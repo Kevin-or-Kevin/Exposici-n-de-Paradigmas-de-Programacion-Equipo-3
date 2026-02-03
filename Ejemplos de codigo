@@ -1,0 +1,8 @@
+// Primitivos
+let numero = 42;
+let texto = "evento";
+let booleano = true;
+
+// Objetos y funciones (ciudadanos de primera clase)
+let evento = { tipo: 'click', timestamp: Date.now() };
+let handler = function() { console.log('Evento disparado'); };
